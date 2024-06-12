@@ -1,0 +1,24 @@
+Z-scores, also known as standard scores, are a statistical measurement that describes a value's relationship to the mean of a group of values. The z-score indicates how many standard deviations a data point is from the mean. Here are some key points about z-scores:
+
+1. **Calculation**: The z-score is calculated using the formula:
+   \[
+   z = \frac{(X - \mu)}{\sigma}
+   \]
+   where:
+   - \( X \) is the data point,
+   - \( \mu \) is the mean of the data set,
+   - \( \sigma \) is the standard deviation of the data set.
+
+2. **Interpretation**:
+   - A z-score of 0 indicates that the data point is exactly at the mean.
+   - A positive z-score indicates that the data point is above the mean.
+   - A negative z-score indicates that the data point is below the mean.
+   - For example, a z-score of 2 means the data point is 2 standard deviations above the mean, while a z-score of -1 means it is 1 standard deviation below the mean.
+
+3. **Standardization**: Z-scores are used to standardize data, making it possible to compare data points from different distributions. This is particularly useful in identifying outliers, as data points with very high or very low z-scores can be considered outliers.
+
+4. **Applications**:
+   - **Outlier detection**: Data points with z-scores greater than a certain threshold (e.g., 3 or -3) can be flagged as potential outliers.
+   - **Standardization**: Z-scores transform data into a standard normal distribution (mean of 0 and standard deviation of 1), which is useful in various statistical analyses.
+   - **Comparison across different scales**: By converting data to z-scores, you can compare scores from different distributions or scales.
+
